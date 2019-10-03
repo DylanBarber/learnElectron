@@ -1,0 +1,39 @@
+.pageWrapper{
+  height: 100vh;
+  width: 100vw; 
+  background-color: whitesmoke;
+  display: flex;
+}
+.sideBar {
+  width: 20%;
+  height: 100vh;
+  background-color: grey; 
+  display: flex;
+  flex-direction: column;
+}
+.sideBarItem {
+  width: 100%;
+  height: 30px;
+  border-bottom: 2px solid white;
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+}
+.sideBarItem p {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+
+}
+.mainInfo {
+  width: 80%; 
+  height: 100vh;
+  background-color: whitesmoke;
+}
+h1 {
+  color: black;
+  margin: 0px; 
+}
+body{ 
+  margin: 0px;
+}
